@@ -1,0 +1,19 @@
+<libraries>
+  <library
+      name="D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\b30600d10d008862c6917f0622a38a61\transformed\out\jars\classes.jar;D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\b30600d10d008862c6917f0622a38a61\transformed\out\jars\libs\unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\b30600d10d008862c6917f0622a38a61\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+</libraries>
