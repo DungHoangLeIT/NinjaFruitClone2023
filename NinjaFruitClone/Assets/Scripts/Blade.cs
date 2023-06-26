@@ -1,6 +1,8 @@
     using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using Unity.VisualScripting;
 
 public class Blade : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class Blade : MonoBehaviour
     public float sliceForce;
     public float minSliceVelocity = 0.01f;
     private AudioSource audio;
+    private float timeCombo = 0.5f;
+    private bool isCombo = false;
+    private int countCombo = 0;
 
     private void Awake()
     {
@@ -32,6 +37,18 @@ public class Blade : MonoBehaviour
     }
     private void Update()
     {
+        timeCombo -= Time.deltaTime;
+        if (isCombo)
+        {
+            timeCombo = 0.5f;
+            isCombo = false;
+        }   
+        else if(!isCombo && timeCombo <= 0)
+        {
+            timeCombo = 0;
+            Debug.Log(countCombo);
+            countCombo = 0;
+        }
         if (Input.GetMouseButtonDown(0))
         {
             StartSlicing();
@@ -72,6 +89,16 @@ public class Blade : MonoBehaviour
         float velocity = direction.magnitude / Time.deltaTime;
         bladeCollider.enabled = velocity > minSliceVelocity;
         transform.position = newPosition;
-        
+    }
+
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Fruit"))
+        {
+            isCombo = true;
+            countCombo += 1;
+        }
     }
 }

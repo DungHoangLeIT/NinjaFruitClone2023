@@ -7,6 +7,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TMP_Text scoreText;
+    public TMP_Text comboText;
 
     private int score;
 
@@ -25,5 +26,11 @@ public class GameManager : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
+    }
+
+    private void GetCombo(int combo, GameObject gameObject)
+    {
+        comboText.text = "Combo " + combo.ToString();
+        comboText.transform.position = gameObject.transform.position;
     }
 }

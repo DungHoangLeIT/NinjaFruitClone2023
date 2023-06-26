@@ -12,6 +12,7 @@ public class Fruit : MonoBehaviour
     private ParticleSystem fruitParticleSystem;
     private AudioSource audio;
 
+
     private void Awake()
     {
         fruitRigidbody = GetComponent<Rigidbody>(); 
@@ -19,6 +20,7 @@ public class Fruit : MonoBehaviour
         fruitParticleSystem = GetComponentInChildren<ParticleSystem>();
         audio = GetComponent<AudioSource>();
     }
+
 
     private void Slice(Vector3 direction, Vector3 position, float force)
     {
@@ -32,10 +34,9 @@ public class Fruit : MonoBehaviour
         Rigidbody[] slices = sliced.GetComponentsInChildren<Rigidbody>();
         foreach(Rigidbody r in slices)
         {
-            r.velocity = fruitRigidbody.velocity;
+           /* r.velocity = fruitRigidbody.velocity;*/
             r.AddForceAtPosition(direction * force, position, ForceMode.Impulse);
         }
-       
     }
 
     private void OnTriggerEnter(Collider other)
