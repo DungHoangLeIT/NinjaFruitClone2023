@@ -72,5 +72,6 @@ public class Blade : MonoBehaviour
         float velocity = direction.magnitude / Time.deltaTime;
         bladeCollider.enabled = velocity > minSliceVelocity;
         transform.position = newPosition;
+        
     }
 }

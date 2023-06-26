@@ -82,17 +82,17 @@ ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradl
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
 	android:screenOrientation
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-155
 	android:launchMode
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:156-187
 	android:hardwareAccelerated
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:397-432
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:405-440
 	android:exported
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:433-456
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:441-464
 	android:resizeableActivity
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:362-396
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:370-404
 	android:configChanges
-		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-361
+		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:188-369
 	android:theme
 		ADDED from D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
 	android:name

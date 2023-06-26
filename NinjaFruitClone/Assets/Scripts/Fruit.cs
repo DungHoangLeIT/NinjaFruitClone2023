@@ -10,12 +10,14 @@ public class Fruit : MonoBehaviour
     private Rigidbody fruitRigidbody;
     private Collider fruitCollider;
     private ParticleSystem fruitParticleSystem;
+    private AudioSource audio;
 
     private void Awake()
     {
         fruitRigidbody = GetComponent<Rigidbody>(); 
         fruitCollider = GetComponent<Collider>();   
         fruitParticleSystem = GetComponentInChildren<ParticleSystem>();
+        audio = GetComponent<AudioSource>();
     }
 
     private void Slice(Vector3 direction, Vector3 position, float force)
@@ -42,6 +44,7 @@ public class Fruit : MonoBehaviour
         {
             Blade blade = other.GetComponent<Blade>();
             Slice(blade.direction, blade.transform.position, blade.sliceForce);
+            audio.Play();
         }
     }
 }

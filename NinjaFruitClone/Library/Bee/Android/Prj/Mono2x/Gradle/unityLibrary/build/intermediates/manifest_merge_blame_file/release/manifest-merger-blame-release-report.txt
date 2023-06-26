@@ -82,17 +82,17 @@
 45            android:name="com.unity3d.player.UnityPlayerActivity"
 45-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
 46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-46-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-361
+46-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:188-369
 47            android:exported="true"
-47-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:433-456
+47-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:441-464
 48            android:hardwareAccelerated="false"
-48-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:397-432
+48-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:405-440
 49            android:launchMode="singleTask"
-49-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+49-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:156-187
 50            android:resizeableActivity="false"
-50-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:362-396
-51            android:screenOrientation="fullUser"
-51-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+50-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:370-404
+51            android:screenOrientation="reverseLandscape"
+51-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-155
 52            android:theme="@style/UnityThemeSelector" >
 52-->D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
 53            <intent-filter>

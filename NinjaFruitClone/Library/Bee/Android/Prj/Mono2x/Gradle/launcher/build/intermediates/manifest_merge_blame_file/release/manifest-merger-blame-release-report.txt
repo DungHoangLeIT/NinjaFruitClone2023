@@ -111,8 +111,8 @@
 61-->[:unityLibrary] D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
 62            android:resizeableActivity="false"
 62-->[:unityLibrary] D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-47
-63            android:screenOrientation="fullUser"
-63-->[:unityLibrary] D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-49
+63            android:screenOrientation="reverseLandscape"
+63-->[:unityLibrary] D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-57
 64            android:theme="@style/UnityThemeSelector" >
 64-->[:unityLibrary] D:\UnityLearning\NinjaFruitClone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-54
 65            <intent-filter>

@@ -38,8 +38,7 @@ public class Spawner : MonoBehaviour
 
         while(enabled)
         {
-            int index = Random.Range(0, fruitPrefabs.Length);
-            GameObject prefabs = fruitPrefabs[index];
+            GameObject prefabs = fruitPrefabs[(int)Random.RandomRange(0, 5)];
             Vector3 position = new Vector3();
             position.x = Random.Range(spawnArea.bounds.min.x,spawnArea.bounds.max.x);
             position.y = Random.Range(spawnArea.bounds.min.y,spawnArea.bounds.max.y);
