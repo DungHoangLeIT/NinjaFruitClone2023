@@ -1,4 +1,4 @@
-    using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -99,6 +99,10 @@ public class Blade : MonoBehaviour
         {
             isCombo = true;
             countCombo += 1;
+        }
+        else if (other.CompareTag("Bomb"))
+        {
+            FindObjectOfType<GameManager>().TakeDamage(10);
         }
     }
 }

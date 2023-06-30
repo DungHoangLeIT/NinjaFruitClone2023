@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Undefined
   - Fruit
+  - Bomb
   layers:
   - Default
   - TransparentFX
